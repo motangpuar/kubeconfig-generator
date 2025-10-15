@@ -1,0 +1,7 @@
+{
+  "username": "john",
+  "email": "john@example.com",
+  "namespace": "john-ns",
+  "worker_label": "team-a",
+  "taint_value": "team-a"
+}

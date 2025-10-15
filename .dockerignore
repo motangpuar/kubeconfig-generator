@@ -1,0 +1,5 @@
+generated/
+tmp/
+_build/
+*.swp
+.git/

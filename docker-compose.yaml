@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kubeconfig-generator:
+    build: .
+    user: "${UID}:${GID}"
+    volumes:
+      - ./tmp:/home/opam/app/tmp:Z
+      - ./templates:/home/opam/app/templates:ro
+      - ./config.json:/home/opam/app/config.json:ro
+      - ./generated:/home/opam/app/generated:Z
+    command: ["config.json"]

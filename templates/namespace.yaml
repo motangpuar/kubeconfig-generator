@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{NAMESPACE}}
+  annotations:
+    scheduler.alpha.kubernetes.io/node-selector: "workload={{WORKER_LABEL}}"
+  labels:
+    team: {{TAINT_VALUE}}

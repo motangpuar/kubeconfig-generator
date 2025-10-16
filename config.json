@@ -1,7 +1,7 @@
 {
-  "username": "john",
-  "email": "john@example.com",
-  "namespace": "john-ns",
+  "username": "ming",
+  "email": "ming@example.com",
+  "namespace": "ming-ns",
   "worker_label": "team-a",
   "taint_value": "team-a"
 }

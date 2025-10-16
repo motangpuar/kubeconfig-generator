@@ -5,4 +5,4 @@ metadata:
   annotations:
     scheduler.alpha.kubernetes.io/node-selector: "workload={{WORKER_LABEL}}"
   labels:
-    team: {{TAINT_VALUE}}
+    name: {{NAMESPACE}}

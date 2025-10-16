@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: ming-ns
-  annotations:
-    scheduler.alpha.kubernetes.io/node-selector: "workload=team-a"
-  labels:
-    name: ming-ns
